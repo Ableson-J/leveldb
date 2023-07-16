@@ -1,0 +1,198 @@
+Determining if the function crc32c_value exists in the crc32c failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lsVVbu
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cf6f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cf6f7.dir/build.make CMakeFiles/cmTC_cf6f7.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lsVVbu'
+Building C object CMakeFiles/cmTC_cf6f7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=crc32c_value -fdiagnostics-color=always -std=c11 -o CMakeFiles/cmTC_cf6f7.dir/CheckFunctionExists.c.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lsVVbu/CheckFunctionExists.c
+Linking C executable cmTC_cf6f7
+/snap/clion/241/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf6f7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=crc32c_value CMakeFiles/cmTC_cf6f7.dir/CheckFunctionExists.c.o -o cmTC_cf6f7  -lcrc32c 
+/usr/bin/ld: cannot find -lcrc32c: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_cf6f7.dir/build.make:99: cmTC_cf6f7] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lsVVbu'
+gmake: *** [Makefile:127: cmTC_cf6f7/fast] Error 2
+
+
+
+Determining if the function snappy_compress exists in the snappy failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iltTv3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9273d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9273d.dir/build.make CMakeFiles/cmTC_9273d.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iltTv3'
+Building C object CMakeFiles/cmTC_9273d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=snappy_compress -fdiagnostics-color=always -std=c11 -o CMakeFiles/cmTC_9273d.dir/CheckFunctionExists.c.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iltTv3/CheckFunctionExists.c
+Linking C executable cmTC_9273d
+/snap/clion/241/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9273d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=snappy_compress CMakeFiles/cmTC_9273d.dir/CheckFunctionExists.c.o -o cmTC_9273d  -lsnappy 
+/usr/bin/ld: cannot find -lsnappy: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9273d.dir/build.make:99: cmTC_9273d] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-iltTv3'
+gmake: *** [Makefile:127: cmTC_9273d/fast] Error 2
+
+
+
+Determining if the function zstd_compress exists in the zstd failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHGqf5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b71b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1b71b.dir/build.make CMakeFiles/cmTC_1b71b.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHGqf5'
+Building C object CMakeFiles/cmTC_1b71b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=zstd_compress -fdiagnostics-color=always -std=c11 -o CMakeFiles/cmTC_1b71b.dir/CheckFunctionExists.c.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHGqf5/CheckFunctionExists.c
+Linking C executable cmTC_1b71b
+/snap/clion/241/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b71b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=zstd_compress CMakeFiles/cmTC_1b71b.dir/CheckFunctionExists.c.o -o cmTC_1b71b  -lzstd 
+/usr/bin/ld: CMakeFiles/cmTC_1b71b.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `zstd_compress'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_1b71b.dir/build.make:99: cmTC_1b71b] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-IHGqf5'
+gmake: *** [Makefile:127: cmTC_1b71b/fast] Error 2
+
+
+
+Determining if the F_FULLFSYNC exist failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewv4rG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bfc65/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bfc65.dir/build.make CMakeFiles/cmTC_bfc65.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewv4rG'
+Building CXX object CMakeFiles/cmTC_bfc65.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++   -fdiagnostics-color=always -std=c++11 -o CMakeFiles/cmTC_bfc65.dir/CheckSymbolExists.cxx.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewv4rG/CheckSymbolExists.cxx
+[01m[K/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewv4rG/CheckSymbolExists.cxx:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewv4rG/CheckSymbolExists.cxx:8:19:[m[K [01;31m[Kerror: [m[K‘[01m[KF_FULLFSYNC[m[K’ was not declared in this scope
+    8 |   return ((int*)(&[01;31m[KF_FULLFSYNC[m[K))[argc];
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+gmake[1]: *** [CMakeFiles/cmTC_bfc65.dir/build.make:78: CMakeFiles/cmTC_bfc65.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ewv4rG'
+gmake: *** [Makefile:127: cmTC_bfc65/fast] Error 2
+
+
+File CheckSymbolExists.cxx:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_FULLFSYNC
+  return ((int*)(&F_FULLFSYNC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_THREAD_SAFETY failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q8NitL
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_83688/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_83688.dir/build.make CMakeFiles/cmTC_83688.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q8NitL'
+Building CXX object CMakeFiles/cmTC_83688.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CLANG_THREAD_SAFETY  -fno-exceptions -fno-rtti  -fdiagnostics-color=always   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_83688.dir/src.cxx.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q8NitL/src.cxx
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wthread-safety[m[K'
+gmake[1]: *** [CMakeFiles/cmTC_83688.dir/build.make:78: CMakeFiles/cmTC_83688.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-q8NitL'
+gmake: *** [Makefile:127: cmTC_83688/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3RkvAN
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb101/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb101.dir/build.make CMakeFiles/cmTC_cb101.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3RkvAN'
+Building CXX object CMakeFiles/cmTC_cb101.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -fdiagnostics-color=always   -Wshorten-64-to-32 -std=c++11 -o CMakeFiles/cmTC_cb101.dir/src.cxx.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3RkvAN/src.cxx
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wshorten-64-to-32[m[K'
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wshorten-64-to-32[m[K'
+gmake[1]: *** [CMakeFiles/cmTC_cb101.dir/build.make:78: CMakeFiles/cmTC_cb101.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3RkvAN'
+gmake: *** [Makefile:127: cmTC_cb101/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TQNINS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ca3ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ca3ce.dir/build.make CMakeFiles/cmTC_ca3ce.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TQNINS'
+Building CXX object CMakeFiles/cmTC_ca3ce.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -wd654 -fdiagnostics-color=always   -wd654 -std=c++11 -o CMakeFiles/cmTC_ca3ce.dir/src.cxx.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TQNINS/src.cxx
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-wd654[m[K'
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-wd654[m[K'
+gmake[1]: *** [CMakeFiles/cmTC_ca3ce.dir/build.make:78: CMakeFiles/cmTC_ca3ce.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-TQNINS'
+gmake: *** [Makefile:127: cmTC_ca3ce/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-juz9V4
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1f6a7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1f6a7.dir/build.make CMakeFiles/cmTC_1f6a7.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-juz9V4'
+Building CXX object CMakeFiles/cmTC_1f6a7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -fno-exceptions -fno-rtti  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -fno-exceptions  -Wstrict-aliasing  -Wthread-safety -fdiagnostics-color=always   -Wthread-safety -std=c++11 -o CMakeFiles/cmTC_1f6a7.dir/src.cxx.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-juz9V4/src.cxx
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wthread-safety[m[K'
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-Wthread-safety[m[K'
+gmake[1]: *** [CMakeFiles/cmTC_1f6a7.dir/build.make:78: CMakeFiles/cmTC_1f6a7.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-juz9V4'
+gmake: *** [Makefile:127: cmTC_1f6a7/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the function sqlite3_open exists in the sqlite3 failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-djLZRS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ba9ce/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ba9ce.dir/build.make CMakeFiles/cmTC_ba9ce.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-djLZRS'
+Building C object CMakeFiles/cmTC_ba9ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open -fdiagnostics-color=always -std=c11 -o CMakeFiles/cmTC_ba9ce.dir/CheckFunctionExists.c.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-djLZRS/CheckFunctionExists.c
+Linking C executable cmTC_ba9ce
+/snap/clion/241/bin/cmake/linux/x64/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba9ce.dir/link.txt --verbose=1
+/usr/bin/cc  -Wstrict-prototypes -DCHECK_FUNCTION_EXISTS=sqlite3_open CMakeFiles/cmTC_ba9ce.dir/CheckFunctionExists.c.o -o cmTC_ba9ce  -lsqlite3 
+/usr/bin/ld: cannot find -lsqlite3: No such file or directory
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_ba9ce.dir/build.make:99: cmTC_ba9ce] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-djLZRS'
+gmake: *** [Makefile:127: cmTC_ba9ce/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_KYOTOCABINET failed with the following output:
+Change Dir: /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XOG1vw
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d491f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d491f.dir/build.make CMakeFiles/cmTC_d491f.dir/build
+gmake[1]: Entering directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XOG1vw'
+Building CXX object CMakeFiles/cmTC_d491f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_KYOTOCABINET  -fno-exceptions -fno-rtti  -fdiagnostics-color=always -std=c++11 -o CMakeFiles/cmTC_d491f.dir/src.cxx.o -c /home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XOG1vw/src.cxx
+[01m[K/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XOG1vw/src.cxx:2:10:[m[K [01;31m[Kfatal error: [m[Kkcpolydb.h: No such file or directory
+    2 | #include [01;31m[K<kcpolydb.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d491f.dir/build.make:78: CMakeFiles/cmTC_d491f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/jiang/leveldb/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-XOG1vw'
+gmake: *** [Makefile:127: cmTC_d491f/fast] Error 2
+
+
+Source file was:
+
+#include <kcpolydb.h>
+
+int main() {
+  kyotocabinet::TreeDB* db = new kyotocabinet::TreeDB();
+  delete db;
+  return 0;
+}
+  
+
